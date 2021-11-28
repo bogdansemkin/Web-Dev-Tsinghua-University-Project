@@ -9,8 +9,7 @@ module.exports = {
         './src/layouts/**/*.{js,ts,jsx,tsx}',
     ],
 
-    // needed in situations where we're using tailwind in prose aka markdown :(
-    // https://github.com/tailwindlabs/tailwindcss-typography/issues/32
+
     important: true,
 
     theme: {
